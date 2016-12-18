@@ -1,0 +1,10 @@
+css:
+    - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css
+    - css/main.css
+exclude: [.tex-cache]
+
+tex:
+    preamble: |
+        \usepackage{amsmath, amsthm, amssymb, amsfonts}
+        \usepackage{tikz}
+        \usepackage{graphicx}
